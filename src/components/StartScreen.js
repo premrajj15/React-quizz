@@ -6,7 +6,7 @@ function StartScreen({ numQuestions, dispatch }) {
       <button
         className="btn btn-ui"
         onClick={() => {
-          console.log("start");
+          // console.log("start");
           dispatch({ type: "start" });
         }}
       >
